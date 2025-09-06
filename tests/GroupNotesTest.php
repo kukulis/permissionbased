@@ -39,7 +39,7 @@ class GroupNotesTest extends TestCase
                     [
                         'NOTE_CODE' => 'aaa',
                         'NOTE_VALUE' => 'Antra žinutė : antras',
-                        'NOTE_TITLE' => 'Pirma žintutė'
+                        'NOTE_TITLE' => 'Pirma žinutė'
                     ]
                 ],
             ]
