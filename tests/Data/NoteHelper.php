@@ -4,6 +4,13 @@ namespace Kukulis\PermissionBased\Tests\Data;
 
 class NoteHelper
 {
+    /**
+     * Jeigu randama tėvinė žinutė ( kodas yra dalis kodo vaikinės žinutės ),
+     * tai vaikinė žinutė padedama kaip vertė į tėvinę žinutę.
+     *
+     * @param array $notes
+     * @return array
+     */
     public static function transformNotes(array $notes) : array {
         // need to find parent note for each note
         // then remove notes with parents, and values put to the parent
